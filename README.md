@@ -13,3 +13,7 @@ The simulator has been equipped with: four analog joysticks that realistically r
 ignition switch to run the board, 2x16 LCD display with I2C interfac, which in the first assumption was supposed to show speed and basic parameters, but the game manufacturer did not foresee the possibility of writing modifications. The simulator has also been equipped with six Arcade buttons with backlight to control additional functions, eg turning on the radio, lights, etc. Arduino does not have enough pins, so the simulator has two PCF8574 integrated circuits, thanks to which we obtained an additional 16 digital pins.
 
 ![Sketch](https://raw.github.com/mserafin/Excavator-Simulator/master/sketch.png)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details
